@@ -1,7 +1,7 @@
 <%-- 
     Document   : heroes
     Created on : 21 jun. 2022, 16:42:33
-    Author     : joseg
+    Author     : Roberto Fajo
 --%>
 <jsp:include page="comunes/inicioHTML.jsp" />
 <jsp:include page="comunes/inicioHEAD.jsp" />

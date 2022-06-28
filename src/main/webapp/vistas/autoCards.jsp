@@ -1,7 +1,7 @@
 <%-- 
     Document   : heroCards
     Created on : 21 jun. 2022, 19:13:13
-    Author     : joseg
+    Author     : Roberto Fajo
 --%>
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <c:choose>

@@ -9,7 +9,7 @@ import java.util.List;
 
 /**
  *
- * @author joseg
+ * @author Roberto Fajo
  */
 public class ModelHC implements Model {
 

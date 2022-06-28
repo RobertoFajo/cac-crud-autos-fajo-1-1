@@ -1,7 +1,7 @@
 <%-- 
     Document   : agregarHeroe
     Created on : 24 jun. 2022, 15:49:10
-    Author     : joseg
+    Author     : Roberto Fajo
 --%>
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <div class="modal fade" id="addAuto" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
