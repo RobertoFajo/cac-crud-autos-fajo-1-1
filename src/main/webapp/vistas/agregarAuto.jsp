@@ -1,5 +1,5 @@
 <%-- 
-    Document   : agregarHeroe
+    Document   : agregarAuto
     Created on : 24 jun. 2022, 15:49:10
     Author     : Roberto Fajo
 --%>
@@ -18,10 +18,19 @@
 
                     <div class="row">
                         
-                        <<div class="col-12 mb-3">
+                        <div class="col-12 mb-3">
+                            <label for="idAuto" class="form-label">ID del Auto</label>
+                            <input type="text"  class="form-control" id="idAuto" name="idAuto" placeholder="ID del auto" required>
+                        </div>
+                            <div class="col-12 mb-3">
+                            <label for="fotoAuto" class="form-label">Cargar foto</label>
+                            <input type="file" class="form-control" id="foto" name="foto">
+                            <%--<input type="hidden" id="fotoBase64" name="fotoBase64">--%>
+                        </div>
+                        <%--<div class="col-12 mb-3">
                             <label for="fotoAuto" class="form-label">Foto del Auto</label>
                             <input type="text" class="form-control" id="fotoAuto" name="fotoAuto" placeholder="Nombre del archivo de la foto" required>
-                        </div>
+                        </div>--%>
                         <div class="col-12 mb-3">
                             <label for="marcaAuto" class="form-label">Marca</label>
                             <input type="text" class="form-control" id="marcaAuto" name="marcaAuto" placeholder="Marca del Auto" required>
@@ -29,6 +38,10 @@
                         <div class="col-12 mb-3">
                             <label for="modeloAuto" class="form-label">Modelo</label>
                             <input type="text" class="form-control" id="modeloAuto" name="modeloAuto" placeholder="Modelo del Auto" required>
+                        </div>
+                        <div class="col-12 mb-3">
+                            <label for="versionAuto" class="form-label">Versión</label>
+                            <input type="text" class="form-control" id="versionAuto" name="versionAuto" placeholder="Versión del Auto" required>
                         </div>
                         <div class="col-12 mb-3">
                             <label for="kmAuto" class="form-label">Kilómetros recorridos</label>

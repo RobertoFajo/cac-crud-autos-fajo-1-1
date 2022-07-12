@@ -11,7 +11,7 @@
             </p>
             <p class="fw-bold text-center">¡Veamos de que se trata!</p>
             <div class="d-flex justify-content-center">
-                <a class="btn btn-secondary" href="${pageContext.request.contextPath}/autos">Ir a la app</a>
+                <a class="btn btn-secondary" href="${pageContext.request.contextPath}/app">Ir a la app</a>
             </div>
         </div>
         <div class="position-fixed bottom-0 w-100 bg-dark d-flex justify-content-center align-items-center text-white" style="height: 45px; ">

@@ -20,7 +20,7 @@
           <a class="nav-link" aria-current="page" href="${pageContext.request.contextPath}">Inicio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="${pageContext.request.contextPath}/heroes">App</a>
+          <a class="nav-link" href="${pageContext.request.contextPath}/app">App</a>
         </li>
       </ul>
     </div>

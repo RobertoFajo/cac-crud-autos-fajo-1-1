@@ -40,13 +40,14 @@ public class ModelHC implements Model {
             }
         }
         if (encontrado == null) {
-            throw new RuntimeException("No se encontró heroe con ID " + id);
+            throw new RuntimeException("No se encontró auto con ID " + id);
         }
         return encontrado;
     }
 
     @Override
-    public int addAuto(Auto auto) {        
+    public int addAuto(Auto auto) {
+        System.out.println(auto.toString());
         this.listaAutos.add(auto);
        
         return 0;
@@ -72,15 +73,15 @@ public class ModelHC implements Model {
 
     private void crearAutos() {
 
-        this.listaAutos.add(new Auto("toyotaCorolla2017", "2017", "15.000", "Toyota", "Corolla", "seg"));
-        this.listaAutos.add(new Auto("citroenC420Sx", "2010", "124.000", "Citroen", "C4", "2.0 Sx"));
-        this.listaAutos.add(new Auto("fiatSiena13Fire", "2004", "150.000", "Fiat", "Siena", "1.3 Fire"));
-        this.listaAutos.add(new Auto("fordEscort18GhiaS", "1994", "115.000", "Ford", "Escort", "1.8 Ghia S"));
-        this.listaAutos.add(new Auto("fordFalconRural20", "1986", "111.111", "Ford", "Falcon", "Rural 2.0 GNC"));
-        this.listaAutos.add(new Auto("fordEscort18GhiaS", "1994", "115.000", "Ford", "Escort", "1.8 Ghia S"));
-        this.listaAutos.add(new Auto("fordEscort18GhiaS", "1994", "115.000", "Ford", "Escort", "1.8 Ghia S"));
-        this.listaAutos.add(new Auto("fordEscort18GhiaS", "1994", "115.000", "Ford", "Escort", "1.8 Ghia S"));
-        this.listaAutos.add(new Auto("fordEscort18GhiaS", "1994", "115.000", "Ford", "Escort", "1.8 Ghia S"));
+        this.listaAutos.add(new Auto("1","toyotaCorolla2017.jpg", "2017", "15.000", "Toyota", "Corolla", "seg"));
+        this.listaAutos.add(new Auto("2","citroenC420Sx.jpg", "2010", "124.000", "Citroen", "C4", "2.0 Sx"));
+        this.listaAutos.add(new Auto("3","fiatSiena13Fire.jpg", "2004", "150.000", "Fiat", "Siena", "1.3 Fire"));
+        this.listaAutos.add(new Auto("4","fordEscort18GhiaS.jpg", "1994", "115.000", "Ford", "Escort", "1.8 Ghia S"));
+        this.listaAutos.add(new Auto("5","fordFalconRural20.jpg", "1986", "111.111", "Ford", "Falcon", "Rural 2.0 GNC"));
+        this.listaAutos.add(new Auto("6","fordEscort18GhiaS.jpg", "1994", "115.000", "Ford", "Escort", "1.8 Ghia S"));
+        this.listaAutos.add(new Auto("7","fordEscort18GhiaS.jpg", "1994", "115.000", "Ford", "Escort", "1.8 Ghia S"));
+        this.listaAutos.add(new Auto("8","fordEscort18GhiaS.jpg", "1994", "115.000", "Ford", "Escort", "1.8 Ghia S"));
+        this.listaAutos.add(new Auto("9","fordEscort18GhiaS.jpg", "1994", "115.000", "Ford", "Escort", "1.8 Ghia S"));
         
     }
     

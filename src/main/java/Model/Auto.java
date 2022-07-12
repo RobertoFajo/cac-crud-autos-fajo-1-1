@@ -22,14 +22,29 @@ public class Auto {
         setFoto(id);
     }
 
-    public Auto(String id, String anio, String km, String marca, String modelo, String version) {
+    public Auto() {
+    }
+
+    
+        
+    //public Auto(String id, String anio, String km, String marca, String modelo, String version) {
+    //    this.id = id;
+    //    this.anio = anio;
+    //    this.km = km;
+    //    this.marca = marca;
+    //    this.modelo = modelo;
+    //    this.version = version;
+    //    setFoto(id);
+    //}
+    
+    public Auto(String id, String foto, String anio, String km, String marca, String modelo, String version) {
         this.id = id;
         this.anio = anio;
         this.km = km;
         this.marca = marca;
         this.modelo = modelo;
         this.version = version;
-        setFoto(id);
+        this.foto = foto;
     }
 
     public String getId() {
@@ -85,10 +100,10 @@ public class Auto {
     }
 
     public void setFoto(String foto) {
-        this.foto = this.id + ".jpg";
+        this.foto = foto;
     }
 
-    public String descripcionAuto(){
+    public String getDescripcionAuto(){
         String descripcion = marca +" - "+ modelo +" - "+ version;
         return descripcion;
     }
